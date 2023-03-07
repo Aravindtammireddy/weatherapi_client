@@ -31,7 +31,7 @@ export const Login = () => {
         }
         else{
         const qt = await fetch(
-          "http://localhost:5000/weather" , {
+          "https://weatherapi-server-o727.onrender.com/weather" , {
             method: "POST", 
             mode: "cors",
             headers: {
